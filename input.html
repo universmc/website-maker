@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Démarrer une Tâche</title>
+    <!-- Inclure ici le CSS nécessaire -->
+</head>
+<body>
+    <form id="startTaskForm">
+        <label for="phaseSelect">Sélectionnez la Phase:</label>
+        <select id="phaseSelect" name="phase">
+            <!-- Les options de phase seront générées dynamiquement par JavaScript -->
+        </select>
+    
+        <label for="taskSelect">Sélectionnez la Tâche:</label>
+        <select id="taskSelect" name="task">
+            <!-- Les options de tâche seront générées dynamiquement en fonction de la phase sélectionnée -->
+        </select>
+    
+        <label for="startDate">Date de Début:</label>
+        <input type="date" id="startDate" name="startDate">
+    
+        <label for="duration">Durée Estimée (en jours):</label>
+        <input type="number" id="duration" name="duration">
+    
+        <button type="submit">Démarrer la Tâche</button>
+    </form>
+</body>
+</html>
